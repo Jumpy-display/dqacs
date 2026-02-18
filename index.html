@@ -16,7 +16,7 @@
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="University of Maryland Computer Science">
   <meta property="og:title" content="Differentiable Quantum Architecture Co-Search for Reinforcement Learning">
-  [cite_start]<meta property="og:description" content="A framework for jointly optimizing quantum gate placements, encoding, and readout in RL tasks[cite: 6, 34].">
+  <meta property="og:description" content="A framework for jointly optimizing quantum gate placements, encoding, and readout in RL tasks[cite: 6, 34].">
   <meta property="og:url" content="https://YOUR_DOMAIN.com/DQACS">
   <meta property="og:image:alt" content="DQACS - Research Preview">
   <!-- TODO: Create a 1200x630px preview image and update path -->
@@ -107,7 +107,7 @@
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
     "headline": "Differentiable Quantum Architecture Co-Search for Reinforcement Learning",
-    [cite_start]"description": "DQACS proposes a fully differentiable framework that jointly optimizes variational gate placements together with trainable encoding maps and readout layers[cite: 6].",
+    "description": "DQACS proposes a fully differentiable framework that jointly optimizes variational gate placements together with trainable encoding maps and readout layers[cite: 6].",
     "author": [
       {
         "@type": "Person",
@@ -220,14 +220,10 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
+      <img src="static/images/diffqas_architecture.png" loading="lazy"/>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Framework diagram
       </h2>
     </div>
   </div>
@@ -242,7 +238,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            [cite_start]Variational quantum circuits (VQCs) offer compact, trainable models that may reduce parameter counts and improve stability for reinforcement learning (RL) in the noisy intermediate-scale quantum (NISQ) era[cite: 5]. [cite_start]However, performance depends strongly on design choices in encoding, ansatz, and readout[cite: 5]. [cite_start]This paper proposes Differentiable Quantum Architecture Co-Search (DQACS), a fully differentiable framework that jointly optimizes variational gate placements together with trainable encoding maps and readout layers[cite: 6]. [cite_start]DQACS is integrated into a hybrid quantum-classical PPO pipeline with framestacking and a top-k selection schedule to improve training stability[cite: 7]. [cite_start]Experiments show the method learns diverse environments and convergence improves as the search collapses to a high-probability architecture[cite: 8].
+            Variational quantum circuits (VQCs) offer compact, trainable models that may reduce parameter counts and improve stability for reinforcement learning (RL) in the noisy intermediate-scale quantum (NISQ) era. However, performance depends strongly on design choices in encoding, ansatz, and readout. This paper proposes Differentiable Quantum Architecture Co-Search (DQACS), a fully differentiable framework that jointly optimizes variational gate placements together with trainable encoding maps and readout layers. DQACS is integrated into a hybrid quantum-classical PPO pipeline with framestacking and a top-k selection schedule to improve training stability. Experiments show the method learns diverse environments and convergence improves as the search collapses to a high-probability architecture.
           </p>
         </div>
       </div>
@@ -259,7 +255,7 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- TODO: Replace with your research result images -->
-        <img src="static/images/minigrid_6x6_quantum_winner.gif" alt="First research result visualization" loading="lazy"/>
+        <img src="static/images/minigrid_6x6_quantum_winner.gif" alt="First research result visualization" style="max-width:450px; width:100%; height:auto;" loading="lazy"/>
         <!-- TODO: Replace with description of this result -->
         <h2 class="subtitle has-text-centered">
           First image description.
@@ -267,21 +263,21 @@
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/download (6).gif" alt="Second research result visualization" loading="lazy"/>
+        <img src="static/images/download (6).gif" alt="Second research result visualization" style="max-width:450px; width:100%; height:auto;" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/download (7).gif" alt="Third research result visualization" loading="lazy"/>
+        <img src="static/images/download (7).gif" alt="Third research result visualization" style="max-width:450px; width:100%; height:auto;" loading="lazy"/>
         <h2 class="subtitle has-text-centered">
          Third image description.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/download (8).gif" alt="Fourth research result visualization" loading="lazy"/>
+      <img src="static/images/download (8).gif" alt="Fourth research result visualization" style="max-width:450px; width:100%; height:auto;" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
         Fourth image description.
       </h2>
@@ -292,39 +288,6 @@
 </section>
 <!-- End image carousel -->
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
 
 
 
